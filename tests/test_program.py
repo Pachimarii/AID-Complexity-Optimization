@@ -1,9 +1,6 @@
-# import sys
 import unittest
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
-
-# sys.path.append("src")  # Adjust the path accordingly
 from src.program import evaluate_performance, train_model_random_forest
 
 
